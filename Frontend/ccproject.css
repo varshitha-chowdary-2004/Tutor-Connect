@@ -1,0 +1,265 @@
+.logo{
+    height: 50px;
+    width: 50px;
+}
+#custom-nav-link1{
+    color: black;
+    font-family: Roboto;
+    font-size: 18px;
+}
+#custom-nav-link2{
+    color: black;
+    font-family: Roboto;
+    font-size: 18px;
+}
+#custom-nav-link3{
+    color: black;
+    font-family: Roboto;
+    font-size: 18px;
+}
+#custom-nav-link4{
+    color:black;
+    font-family: Roboto;
+    font-size: 18px;
+}
+#custom-nav-link5{
+    color: black;
+    font-family: Roboto;
+    font-size: 18px;
+}
+.banner-bg-container{
+    background-image: url('TutorConnectHome.png');
+    background-size: cover;
+    height: 90vh;
+  }
+.banner-card{
+    text-align: center;
+}
+.banner-heading{
+  font-size: 45px;
+  font-family: Roboto;
+  font-weight: 400;
+  color: white;
+}
+.banner-caption{
+    color: rgb(230, 222, 222);
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 300;
+}
+.custom-registertutor-button{
+    background-color:#dbb321;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    color: black;
+    height: 9vh;
+    width: 13vw;
+    
+}
+.custom-registerstudent-button{
+    background-color:transparent;
+    border-radius: 10px;
+    border-color: #dbb321;
+    border-width: 2px;
+    color: #dbb321;
+    height: 9vh;
+    width: 13vw;
+}
+.form-container {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.form-group input, .form-group select {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 10%;
+}
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+/* Why Choose Us Section */
+.why-choose-us {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+.why-choose-us h2 {
+    font-size: 28px;
+    color: #d48806;
+    font-weight: bold;
+}
+
+.divider {
+    width: 50px;
+    height: 3px;
+    background-color: #d48806;
+    margin: 10px auto;
+}
+
+.why-choose-us h3 {
+    font-size: 20px;
+    color: #004c63;
+    margin-bottom: 30px;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.feature-box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: left;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.feature-box img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.feature-box h4 {
+    font-size: 18px;
+    color: #004c63;
+    font-weight: bold;
+}
+
+.feature-box p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Tutor Search Results */
+.tutor-results-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.tutor-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+.tutor-card h3 {
+    color: #004c63;
+    margin-bottom: 10px;
+}
+
+.tutor-qualification {
+    font-weight: bold;
+    color: #d48806;
+}
+
+.tutor-experience {
+    color: #555;
+    margin: 8px 0;
+}
+
+.tutor-contact-btn {
+    background-color: #dbb321;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* Tablet and larger screens */
+@media (min-width: 768px) {
+    .tutor-results-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .tutor-card {
+        width: calc(50% - 10px);
+    }
+}
+
+/* Desktop screens */
+@media (min-width: 992px) {
+    .tutor-card {
+        width: calc(33.33% - 14px);
+    }
+}
+
+/* Student Search Results - styled same as tutor */
+.student-results-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.student-card, .tutor-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+.student-card h4 {
+    color: #004c63;
+    margin-bottom: 10px;
+}
+
+/* Tablet and larger screens */
+@media (min-width: 768px) {
+    .student-results-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .student-card, .tutor-card {
+        width: calc(50% - 10px);
+    }
+}
+
+/* Desktop screens */
+@media (min-width: 992px) {
+    .student-card, .tutor-card {
+        width: calc(33.33% - 14px);
+    }
+}
